@@ -12,7 +12,8 @@ void printVector(vector<int> input_bit){
 
 vector<int> p_box(vector<int> s_box_output){
     
-    int permutation_ind[8]={5,0,2,6,7,4,3,1};
+  // int permutation_ind[8]={5,0,2,6,7,4,3,1};
+    int permutation_ind[8]={1,7,2,6,5,0,3,4};
     vector<int> perm_bit_output(8,0);
     for(int i=0;i<8;i++){
          perm_bit_output[permutation_ind[i]]=s_box_output[i];
